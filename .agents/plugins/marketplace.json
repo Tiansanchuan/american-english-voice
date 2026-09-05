@@ -8,7 +8,7 @@
       "name": "american-english-voice",
       "source": {
         "source": "local",
-        "path": "./plugins/american-english-voice"
+        "path": "./"
       },
       "policy": {
         "installation": "AVAILABLE",

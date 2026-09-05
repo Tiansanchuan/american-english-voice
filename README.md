@@ -2,6 +2,8 @@
 
 用于美式英语口语陪聊的插件。围绕你选择的话题自然聊天，简短纠正语法，帮助组织表达，并在能够实际听到音频时提供发音反馈。
 
+练习规则：[SKILL.md](skills/american-english-conversation/SKILL.md)。
+
 ## 从 GitHub 安装
 
 仓库地址：<https://github.com/Tiansanchuan/american-english-voice>
@@ -52,18 +54,17 @@ codex plugin marketplace add https://github.com/Tiansanchuan/american-english-vo
 
 ```text
 .agents/plugins/marketplace.json
-plugins/american-english-voice/
-  .codex-plugin/plugin.json
-  skills/american-english-conversation/
-    SKILL.md
-    agents/openai.yaml
+.codex-plugin/plugin.json
+skills/american-english-conversation/
+  SKILL.md
+  agents/openai.yaml
 ```
 
-Marketplace 中的 `source.path` 相对于仓库根目录，指向 `./plugins/american-english-voice`。即使通过 GitHub 导入，同一仓库内的插件仍使用 `"source": "local"`。
+仓库根目录就是插件根目录。Marketplace 中的 `source.path` 为 `./`，插件清单中的 `skills` 为 `./skills/`。即使通过 GitHub 导入，同一仓库内的插件仍使用 `"source": "local"`。
 
 ## 后续更新
 
-以本仓库 `plugins/american-english-voice/` 内的文件为发布版本来源。修改后提交并推送到 GitHub。
+在本仓库的 `skills/` 中修改练习规则，在 `.codex-plugin/plugin.json` 中修改插件信息。修改后提交并推送到 GitHub。
 
 Codex 可以刷新来源：
 
