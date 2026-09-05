@@ -1,0 +1,4 @@
+interface:
+  display_name: "American English Voice Practice"
+  short_description: "Practice American English through ChatGPT Voice"
+  default_prompt: "Use $american-english-conversation to start practicing American English through conversation in ChatGPT Voice."

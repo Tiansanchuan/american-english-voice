@@ -1,0 +1,20 @@
+{
+  "name": "american-english-voice",
+  "version": "0.1.0",
+  "description": "Practice American English through conversation in ChatGPT Voice, with focused grammar, phrasing, and pronunciation feedback.",
+  "author": {
+    "name": "Tiansanchuan"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "American English Voice",
+    "shortDescription": "Practice American English through ChatGPT Voice.",
+    "longDescription": "Follow your own topics in natural American English. Get brief grammar corrections, help finding natural expressions, and pronunciation feedback when audio is available. Repeat when needed, then return to the conversation. Start practice explicitly and say exit practice to stop coaching.",
+    "developerName": "Tiansanchuan",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Start practicing American English with me through conversation in ChatGPT Voice."
+    ]
+  }
+}

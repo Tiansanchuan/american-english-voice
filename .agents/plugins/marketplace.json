@@ -1,0 +1,20 @@
+{
+  "name": "american-english-voice",
+  "interface": {
+    "displayName": "American English Voice"
+  },
+  "plugins": [
+    {
+      "name": "american-english-voice",
+      "source": {
+        "source": "local",
+        "path": "./plugins/american-english-voice"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
